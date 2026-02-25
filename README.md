@@ -1,14 +1,21 @@
-# Optimizar-Windows-11-limpieza-profunda
-Optimizar Windows 11 limpieza profunda
+## Run (Windows 11 25H2 Pro cleanup)
 
-#Cómo ejecutarlo
+This repo includes a PowerShell cleanup script (`win11-cleanup.ps1`) to remove common preinstalled apps and disable consumer features (Copilot/Widgets/etc.) safely.
 
-Clic derecho en Windows PowerShell → Run as Administrator
-Ve a la carpeta donde guardaste el .ps1 (ejemplo Escritorio):
+### Requirements
+- Windows 11
+- PowerShell
+- Administrator privileges
 
-*cd $env:USERPROFILE\Desktop
+---
 
-Ejecuta:
+## Option A (Recommended): Run the `.ps1` directly
 
-*Set-ExecutionPolicy Bypass -Scope Process -Force
-.\win11-cleanup.ps1
+1) Open **PowerShell as Administrator**
+   - Press `Win` → type **PowerShell**
+   - Right click → **Run as administrator**
+
+2) Go to the folder where the script is located (example: Desktop)
+
+```powershell
+cd $env:USERPROFILE\Desktop
