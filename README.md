@@ -20,7 +20,7 @@ This repo includes a PowerShell cleanup script (`win11-cleanup.ps1`) to remove c
 ```powershell
 cd $env:USERPROFILE\Desktop
 
-``` Run the script (ExecutionPolicy only for this session)
+Run the script (ExecutionPolicy only for this session):
 
 Set-ExecutionPolicy Bypass -Scope Process -Force
 .\win11-cleanup.ps1
